@@ -16,14 +16,14 @@
 }
 
 .skills-container h2::after {
-  content: '';
-  display: block;
-  width: 26%; /* Adjust the width to your design preference */
-  height: 3px; /* Line height */
-  background-color: #37b182; /* Solid green color */
-  margin: 10px auto; /* Center the line */
-  border-radius: 5px; /* Rounded edges for the line */
-  animation: lineAnimation 1.5s ease-in-out; /* Animate the line */
+  content: "";
+    display: block;
+    width: 144px;
+    height: 4px;
+    background-color: #37b182;
+    margin: 0 auto;
+    border-radius: 2px;
+    margin: 10px auto;
 }
 
 @keyframes lineAnimation {
@@ -64,3 +64,9 @@
   font-weight: bold;
   color: #ffffff;
 }
+
+
+
+
+
+

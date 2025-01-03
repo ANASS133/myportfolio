@@ -25,7 +25,7 @@ const Projects = () => {
 
   return (
     <div className="projects-container">
-      <h2 className="projects-heading">My Projects</h2>
+      <h2 className="projects-heading">MY PROJECTS</h2>
       <div className="projects-list">
         {projectData.map((project) => (
           <div key={project.id} className="project-card">
@@ -43,11 +43,6 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <form action="https://formspree.io/f/{form_id}" method="post">
-  <label for="email">Your Email</label>
-  <input name="Email" id="email" type="email"/>
-  <button type="submit">Submit</button>
-</form>
     </div>
   );
 };

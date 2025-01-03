@@ -8,6 +8,7 @@ import First from './first';
 import Button from './discover';
 import Skills from './skills';
 import Projects from './projects'
+import ContactForm from './contactForm'
 
 
 export default function App() {
@@ -19,8 +20,7 @@ export default function App() {
       <Resume/>
       <div className="lesprojets">
       <Projects/>  </div>    <br />
-      
-      
+      <ContactForm/>
       </>
   );
 }
